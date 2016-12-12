@@ -1,0 +1,148 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+header {
+  padding: 20px 0;
+}
+
+header .row,
+footer .row {
+  display: flex;
+  align-items: middle;
+  
+}
+
+header h1 {
+  font-weight: 700;
+  margin: 0;
+}
+
+header nav {
+  position: absolute;
+  
+}
+
+header p {
+  padding: 0 20px;
+  margin: 0;
+}
+
+.jumbotron {
+  display: flex;
+  align-items: center;
+  background-image: url('http://portugalresident.com/sites/default/files/styles/node-detail/public/field/image/cinema.png?itok=jBTVmSHm');
+  background-size: 100% 100%;
+  color: #ffffff;
+  height: 500px;
+  text-shadow: 0.25px 0.25px 0.25px #000000;
+}
+
+.jumbotron h2 {
+  font-size: 60px;
+  font-weight: 700;
+  margin: 0;
+  color: #fff;
+  font-family:'Impact, Haettenschweiler,  Arial Narrow Bold , sans-serif';
+  
+}
+
+.jumbotron h3 {
+  margin: 0 0 20px;
+  color: #fff;
+  
+}
+
+
+section .row img {
+  margin: 0 0 30px;
+  width: 100%;
+}
+
+.col-sm-6 {
+  margin: 0 0 30px;
+  margin: 0 auto; width: 400px; 
+}
+
+.btn.btn-primary {
+  border-radius: 5px;
+  border: 0px;
+  color: #AED5AE;
+  text-shadow: none;
+  background-color: #F5F1F2;
+  
+}
+
+.btn.btn-primary:hover {
+  color: #ffffff;
+  background-color: #F5F1F2;
+}
+
+.btn-secondary {
+  background-color: #E8DFE0;
+  color: #ffffff;
+  margin: 0 0 30px;
+}
+
+footer {
+  font-size: 12px;
+  padding: 20px 0;
+}
+
+footer .col-sm-8 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer li img {
+  width: 32px;
+  height: 32px;
+}   
+.verst {
+font-family: Arial, Helvetica, sans-serif;
+text-align: justify;
+}
+
+.Test {
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+text-indent: 100px;
+text-align: middle;
+}
+
+iphone {
+font-family: Georgia, 'Times New Roman', Times, serif;
+text-indent: 100px;
+text-align: middle;  
+}
+
+#hdtb-msn  {
+    float: right;
+    position: relative;
+    white-space: nowrap;
+    align-items: baseline;
+    display: flex;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    min-width: 782px;
+}
+
+#hdtb-msb {
+    float: left;
+    position: relative;
+    white-space: nowrap;
+    align-items: baseline;
+    display: flex;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    min-width: 782px;
+}
+
+#top_nav {
+    min-width: 980px;
+    -webkit-box-reflect: none;
+}
